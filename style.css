@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    padding: 100px 0 80px;
+}
+
+.gifItem {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.gifOfDayContent {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+.gifOfDayContent a:hover {
+    transform: scale(1.1);
+}
+
+.gifOfDayTitleBlock {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.gifOfDayTitle {
+    color: white;
+    font-size: 25px;
+    margin: 20px 0 20px;
+    font-weight: 900;
+}
+
+header {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    position: fixed;
+    right: calc(50% - 38%);
+    top: 0;
+    z-index: 2;
+}
+
+.inputSearch {
+    width: 0;
+}
+
+.view {
+    display: inline-block;
+    border: solid 2px black;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    transition: all .3s;
+    padding: 0 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.searchButton {
+    padding: 15px 20px;
+    background-color: #D83B59;
+    min-width: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.searchButton:hover {
+    cursor: pointer;
+}
+
+.gifOfDayLoad {
+    padding: 20px 40px;
+    background-color: #D83B59;
+    color: white;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.gifOfDayLoad:hover {
+    cursor: pointer;
+}
+
+.non-active {
+    background-color: rgb(201, 201, 201);
+}
+
+.non-active:hover {
+    background-color: rgb(160, 160, 160);
+}
