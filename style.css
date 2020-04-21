@@ -4,6 +4,11 @@ body {
     padding: 100px 0 80px;
 }
 
+.tagline {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
 .gifItem {
     display: inline-block;
     height: 300px;
@@ -51,23 +56,6 @@ header {
     z-index: 2;
 }
 
-.inputSearch {
-    width: 0;
-}
-
-.view {
-    display: inline-block;
-    border: solid 2px black;
-    width: 400px;
-    height: 45px;
-    border-radius: 10px;
-    transition: all .3s;
-    padding: 0 20px;
-}
-
-.hidden {
-    display: none;
-}
 
 .logo {
     font-size: 30px;
@@ -81,10 +69,6 @@ header {
     border: 2px solid white;
     border-radius: 10px;
     color: white;
-}
-
-.searchButton:hover {
-    cursor: pointer;
 }
 
 .gifOfDayLoad {
